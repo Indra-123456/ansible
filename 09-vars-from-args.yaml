@@ -1,0 +1,6 @@
+- name: variables from play level
+  hosts: localhost
+  tasks:
+  - name: check variales
+    ansible.builtin.debug:
+      msg: "hello {{person}}, good {{wishes}}"
