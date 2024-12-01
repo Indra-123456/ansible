@@ -2,14 +2,14 @@
   hosts: localhost
   vars_files:
   - variables.yaml
-  vars_prompt:
-  - name: person
-    prompt: enter your person
-    private: false
+  # vars_prompt:
+  # - name: person
+  #   prompt: enter your person
+  #   private: false
 
-  - name: wishes
-    prompt: enter your wishes
-    private: false
+  # - name: wishes
+  #   prompt: enter your wishes
+  #   private: false
   vars:
     name: "indra from play"
     wishes: "morning from play"
